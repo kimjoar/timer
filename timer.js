@@ -15,13 +15,16 @@
     'use strict';
 
     return function() {
-        var start;
+        var start = Date.now();
+
         var time = function () {
             return Date.now() - start;
         };
+
         time.start = function() {
             start = Date.now();
         };
+
         return time;
     };
 
