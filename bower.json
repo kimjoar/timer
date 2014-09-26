@@ -1,7 +1,7 @@
 {
   "name": "timer",
   "main": "timer.js",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "authors": [
     "Kim Joar Bekkelund <kjbekkelund@gmail.com>"
   ],
