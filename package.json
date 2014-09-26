@@ -1,14 +1,15 @@
 {
-  "name": "timer.js",
-  "version": "0.2.0",
+  "name": "timer-js",
+  "version": "1.0.0",
   "description": "A simple timer utility",
   "main": "timer.js",
   "dependencies": {},
   "devDependencies": {
-    "karma-jasmine": "^0.1.5",
-    "sinon": "^1.10.3",
     "karma": "^0.12.23",
-    "karma-phantomjs-launcher": "^0.1.4"
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-jasmine": "^0.2.2",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "sinon": "^1.10.3"
   },
   "scripts": {
     "test": "karma start"
